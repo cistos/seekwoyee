@@ -7,5 +7,4 @@ namespace Seekwoyee\Trees;
  * @package Seekwoyee\Trees
  */
 interface ExtTreeManagerInterface {
-
 }

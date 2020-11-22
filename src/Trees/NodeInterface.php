@@ -7,5 +7,5 @@ namespace Seekwoyee\Trees;
  * @package Seekwoyee\Trees
  */
 interface NodeInterface {
-    
+    public function getId(): int;
 }
