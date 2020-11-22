@@ -16,7 +16,7 @@ class FactoryTreeBst implements Trees\FactoryTreeInterface {
      * @param NodeUserTemplate $userPropsTemplate
      * @return TreeManagerBst
      */
-    public function createTreeManager(int $maxHeight,  $userPropsTemplate): TreeManagerBst
+    public function createTreeManager(int $maxHeight,  NodeUserTemplate $userPropsTemplate): TreeManagerBst
     {
         return new TreeManagerBst($maxHeight, $userPropsTemplate);
     }
