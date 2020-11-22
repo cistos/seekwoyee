@@ -8,4 +8,5 @@ namespace Seekwoyee\Trees;
  */
 interface NodeInterface {
     public function getId(): int;
+    public function setUserProperty(string $prop, $value): void;
 }

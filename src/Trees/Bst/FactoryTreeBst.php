@@ -7,6 +7,7 @@ use Seekwoyee\Trees\NodeUserTemplate;
 
 /**
  * Class FactoryTreeBst - конструирует класс Tree для бинарного несбалансированного дерева
+ * @uses \Seekwoyee\Tree::__construct()
  * @package Seekwoyee\Trees\Bst
  */
 class FactoryTreeBst implements Trees\FactoryTreeInterface {
