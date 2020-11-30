@@ -7,4 +7,5 @@ namespace Seekwoyee\Trees;
  * @package Seekwoyee\Trees
  */
 interface ExtTreeManagerInterface {
+    public function getLastError(): string;
 }
